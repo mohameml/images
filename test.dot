@@ -1,7 +1,61 @@
-digraph Arbre {
-  A -> B;
-  A -> C;
-  B -> D;
-  B -> E;
-  C -> F;
+digraph MATH {
+
+  MATH -> logique_mathématique
+  MATH -> Analyse 
+  MATH -> Algébre 
+  MATH -> Probabilités
+  MATH -> Statistique
+  MATH -> Géométrie
+  MATH -> Topologie 
+
+
+  Analyse -> Analyse_réelle
+  Analyse -> Analyse_numérique
+  Analyse -> Analyse_différentielle
+  Analyse -> Analyse_complexe
+  Analyse -> Analyse_fonctionnelle
+
+
+  Algébre -> Algébre_générale
+  Algébre -> Algébre_linéaire
+  Algébre -> arithmétique
+  Algébre -> Polynômes
+
+  
+  Probabilités -> calcul_combinatoire
+  Probabilités -> proba_dénombrable
+  Probabilités -> proba_continue 
+  Probabilités -> théorie_mesure 
+  Probabilités -> calcul_stochastique
+
+
+  Statistique -> stat_descriptive
+  Statistique -> stat_inférentielle
+  Statistique -> régression
+  Statistique -> stat_multivariée
+  Statistique -> stat_temporelle
+
+
+  Topologie -> Topologie_EVN
+  Topologie -> Topologie_générale
+
+  
+
+  logique_mathématique -> théorie_ensemble
+  logique_mathématique -> logique_prédicats
+  logique_mathématique -> théorie_model
+  logique_mathématique -> théorie_application
+
+
+
+  
+
+  
+  Géométrie -> Géométrie_euclidienne
+  Géométrie -> Géométrie_différentielle
+
+
+
+
+
 }
